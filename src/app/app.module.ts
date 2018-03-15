@@ -6,11 +6,13 @@ import { environment } from './../environments/environment';
 
 
 import { AppComponent } from './app.component';
+import { ShoppingItemComponent } from './shopping/shopping-item/shopping-item.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShoppingItemComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,10 @@
+<p>
+  shopping-item works!
+</p>
+<ul>
+  <li *ngFor="let item of items">
+      <pre>{{ item.name | json }}</pre>
+  </li>
+</ul>
+<input type="button" value="Click me" (click)="addItem()">
+<p>Done!</p>
